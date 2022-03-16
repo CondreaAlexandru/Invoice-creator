@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#invoice {
+    display: grid;
+    width: 550px;
+    margin: auto;
+
+}
+
+header h1, header h3 {
+    margin: 0 0;
+}
+
+header {
+    display: grid;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A69D2;
+    color: white;
+}
+
+#container {
+    display: grid;
+    margin: auto;
+    width: 550px;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #1F2937;
+}
+
+
+section button, button {
+    padding: 5px 10px;
+    background-color: #D1D4F4;
+    border-radius: 7px;
+    border: 1px solid #D1D4F4;
+    color: #4A4E74;
+    cursor: pointer;
+}
+    ul {
+        padding: 0px;
+    }
+
+.task {
+    width: 100%;
+    color: white;
+    display: inline-flex;
+    text-align: left;
+}
+
+.task-txt, .task-price, #full-price, #total-price {
+    padding: 20px 30px;
+    width: 50%;
+    display: grid;
+    margin: auto;
+}
+#sec-total {
+    display: flex;
+    padding: 20px 30px;
+}
+
+.task-txt, #total-price {
+    text-align: left;
+}
+
+.task-price, #full-price {
+    text-align: right;
+    
+}
+
+li, #full-price, #total-price {
+    color: white;
+    list-style-type:none;
+    padding: 5px;
+    font-weight: bold;
+}
